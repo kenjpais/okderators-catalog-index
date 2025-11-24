@@ -1,0 +1,10 @@
+---
+schema: olm.package
+name: toolhive-operator
+defaultChannel: stable
+---
+schema: olm.channel
+package: toolhive-operator
+name: stable
+entries:
+  - name: toolhive-operator.v0.3.5
